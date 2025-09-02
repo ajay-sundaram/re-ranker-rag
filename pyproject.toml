@@ -1,0 +1,13 @@
+[project]
+name = "re-ranker-rag"
+version = "0.1.0"
+description = "Advanced Multi-Stage Re-Ranker for RAG Applications"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "cohere>=5.17.0",
+    "numpy>=2.3.2",
+    "sentence-transformers>=5.1.0",
+    "torch>=2.8.0",
+    "transformers>=4.56.0",
+]
