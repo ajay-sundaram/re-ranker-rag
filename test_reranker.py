@@ -1,4 +1,4 @@
-from reranker import AdvancedRAGReranker
+from src.reranking.reranker import AdvancedRAGReranker
 
 # Quick test
 reranker = AdvancedRAGReranker(strategy='hybrid')
