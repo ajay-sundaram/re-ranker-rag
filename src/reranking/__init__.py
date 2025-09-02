@@ -20,7 +20,7 @@ from .reranker import (
 
 # Module metadata
 __version__ = "1.0.0"
-__author__ = "Your Name"
+__author__ = "Ajay Sundaram"
 __description__ = "Advanced multi-stage reranker for RAG applications"
 
 # Default configuration
