@@ -20,18 +20,20 @@ BAAI/bge-reranker-v2-m3: Multilingual support if needed
 3. Integration with Your Stack
 The rerank_from_chroma() method directly accepts ChromaDB results format and returns re-ranked documents with both initial and re-ranking scores.
 Installation Requirements:
+
 ```
-bash
 pip install sentence-transformers transformers torch numpy
 pip install cohere  # Optional, for Cohere integration
 ```
+
 Usage with Your RAG Application:
+
 ```
 python
 
 from your_chroma_setup import collection
 
-# Initialize with hybrid strategy for best accuracy
+# Initialize with a hybrid strategy for best accuracy
 reranker = AdvancedRAGReranker(
     strategy='hybrid',  # Use 'cross_encoder' for speed, 'hybrid' for accuracy
     cohere_api_key=None,  # Add your free API key if you have one
